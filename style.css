@@ -1,0 +1,91 @@
+/*Fonts Family*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*Color Variables*/
+:root {
+  --background-primary: #f5f7fa;
+  --primary-color: #4caf4f;
+  --black: #4D4D4D;
+  --text-color-gray: #717171;
+  --text-color-egray:#89939E;
+}
+
+/*Globel Classes*/
+
+.inter{
+  font-family: "inter", "sans-serif";
+}
+
+.fs-64{
+  font-size: 64px;
+}
+
+.fs-36{
+  font-size: 36px;
+}
+
+.primary-color-green{
+  color: var(--primary-color);
+}
+
+.heading-color-black{
+  color: var(--black);
+}
+
+.btext-color-gray{
+  color: var(--text-color-gray);
+}
+
+.btext-color-egray{
+  color:var(--text-color-egray);
+}
+
+.b-icon-color{
+  color:var(--background-primary);
+}
+
+.py-120{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*Navbar*/
+.nav-bar-bgc {
+  background: var(--background-primary);
+}
+
+.secoundary-button1 {
+  background: none;
+  color: var(--primary-color);
+}
+
+.primary-button1 {
+  background: var(--primary-color);
+  color: white;
+}
+
+/*Herosection*/
+
+.--lessons{
+  color: var(--black);
+  margin: 0px;
+  padding: 0px;
+}
+
+.--fyears{
+  color: var(--primary-color);
+  margin: 0px;
+  padding: 0px;
+}
+
+.where-grow{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color-gray);
+  margin: 0px;
+}
+
+/*3rd Section*/
+
+
+
